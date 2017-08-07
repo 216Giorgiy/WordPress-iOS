@@ -54,7 +54,7 @@ target 'WordPress' do
   pod 'NSURL+IDN', '0.3'
   pod 'WPMediaPicker', :git => 'https://github.com/wordpress-mobile/MediaPicker-iOS.git', :branch => 'issue/7630-inline-picker-thumb-size-and-scroll'
   pod 'WordPress-iOS-Editor', '1.9.3'
-  pod 'WordPress-Aztec-iOS', '=1.0.0-beta.9.1'
+  pod 'WordPress-Aztec-iOS', '=1.0.0-beta.9.2'
 
   target 'WordPressTest' do
     inherit! :search_paths
