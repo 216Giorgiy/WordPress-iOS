@@ -131,7 +131,7 @@ DEPENDENCIES:
   - WordPress-Aztec-iOS (= 1.0.0-beta.9.2)
   - WordPress-iOS-Editor (= 1.9.3)
   - WordPressComKit (from `https://github.com/Automattic/WordPressComKit.git`, tag `0.0.6`)
-  - WPMediaPicker (from `https://github.com/wordpress-mobile/MediaPicker-iOS.git`, branch `issue/7630-inline-picker-thumb-size-and-scroll`)
+  - WPMediaPicker (from `https://github.com/wordpress-mobile/MediaPicker-iOS.git`, branch `develop`)
   - wpxmlrpc (= 0.8.3)
 
 EXTERNAL SOURCES:
@@ -142,7 +142,7 @@ EXTERNAL SOURCES:
     :git: https://github.com/Automattic/WordPressComKit.git
     :tag: 0.0.6
   WPMediaPicker:
-    :branch: issue/7630-inline-picker-thumb-size-and-scroll
+    :branch: develop
     :git: https://github.com/wordpress-mobile/MediaPicker-iOS.git
 
 CHECKOUT OPTIONS:
@@ -153,7 +153,7 @@ CHECKOUT OPTIONS:
     :git: https://github.com/Automattic/WordPressComKit.git
     :tag: 0.0.6
   WPMediaPicker:
-    :commit: 61c4831c03b78f27ae138cf72512e61c2a5f0836
+    :commit: 9744a9af30bf2570387be00c8479ae0af9cafa60
     :git: https://github.com/wordpress-mobile/MediaPicker-iOS.git
 
 SPEC CHECKSUMS:
@@ -189,6 +189,6 @@ SPEC CHECKSUMS:
   WPMediaPicker: 771abfe3a334119a909ebe403188498e4a2b01e8
   wpxmlrpc: bfc572f62ce7ee897f6f38b098d2ba08732ecef4
 
-PODFILE CHECKSUM: 4f7e7ac75b20d8a57c659ddc33f510a66305e334
+PODFILE CHECKSUM: eae4596d818e5413a7a04d52fa2f8428ad65556f
 
 COCOAPODS: 1.2.1

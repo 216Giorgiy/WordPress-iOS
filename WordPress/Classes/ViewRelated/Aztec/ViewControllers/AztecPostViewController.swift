@@ -1746,6 +1746,7 @@ extension AztecPostViewController : Aztec.FormatBarDelegate {
         picker.mediaPicker.viewControllerToUseToPresent = self
         picker.dataSource = WPPHAssetDataSource.sharedInstance()
         picker.mediaPicker.mediaPickerDelegate = self
+        picker.scrollVertically = true
 
         presentToolbarViewControllerAsInputView(picker)
     }
